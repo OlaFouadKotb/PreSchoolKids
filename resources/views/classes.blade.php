@@ -1,0 +1,10 @@
+@extends('layouts.main')
+ @push('pageName')
+ Classes
+ @endpush
+@section('content')
+@include('includes.pageHeader')
+@include('includes.classes')
+@include('includes.appoint')
+@include('includes.testimonial')
+@endsection
